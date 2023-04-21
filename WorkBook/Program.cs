@@ -1,3 +1,4 @@
 ﻿using WorkBook.Logical;
 
-Swapping.ExampleSwapping();
+Swapping.Start();
+Fibonacci.Start();

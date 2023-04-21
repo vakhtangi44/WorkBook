@@ -8,7 +8,7 @@ namespace WorkBook.Logical
 {
     internal class Swapping
     {
-        public static void ExampleSwapping()
+        public static void Start()
         {
             // Console.WriteLine("Please enter first word:");
             // string name1 = Console.ReadLine();
@@ -45,7 +45,6 @@ namespace WorkBook.Logical
             name2 = string.Join("", reversedChars.Skip(name2.Length).Take(name1.Length).Reverse());
 
             Console.WriteLine($"After swapping first word is \"{name1}\", second word is \"{name2}\"");
-            Console.ReadKey();
         }
     }
 }
